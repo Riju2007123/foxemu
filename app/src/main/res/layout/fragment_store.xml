@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:padding="16dp">
+
+    <EditText android:id="@+id/itch_api_key"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:hint="itch.io API key" android:inputType="textPassword" />
+
+    <Button android:id="@+id/btn_load_library"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_marginTop="8dp" android:text="Load My Library" />
+
+    <ListView android:id="@+id/store_list"
+        android:layout_width="match_parent" android:layout_height="0dp"
+        android:layout_weight="1" android:layout_marginTop="8dp" />
+</LinearLayout>
